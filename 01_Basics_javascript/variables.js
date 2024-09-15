@@ -1,27 +1,30 @@
-// let var const Variables
+//let var const Variables
 
 const accountId = 8433;
 
-// console.log(accountId);
- let accountName = "Abhishek Singh";
- var accountEmail = "hindolabhishek8433@gmail.com";
- accountCity = "Mathura";
+ console.log(accountId);
 
-//  console.table([accountId ,accountName ,accountEmail ,accountState]);
+// accountName = 8126;
 
-//  accountId = 8126;
-//  console.log(accountId);
+// console.log(accountName);
 
-// accountName = "Sumit Singh";
-// accountEmail ="avi19072002@gmail.com";
-// accountState = "Noida";
+let accountName = "Abhishek Singh";
+var accountEmail = "hindolabhishek8433@gmail.com";
+accountCity = "Mathura";
 
-// console.table([accountId ,accountName ,accountEmail ,accountState]);
+console.table([accountId ,accountName ,accountEmail ,accountCity]);
 
-var accountEmail = "avi19072002@gmail.com";
- let accountState;
+ accountName = "Sumit Singh";
+ var accountEmail = "singhsumit8126@gmail.com";
+ accountCity = "Noida";
+//   let accountState = undefined;
+let accountState;
 
-console.table([accountEmail,accountState]);
+ console.table([accountId ,accountName ,accountEmail ,accountCity ,accountState]);
+
+ /*
+  Prefer not to use var beacuase it create problem in block scope and functional Scope
+ */
 
 
  
