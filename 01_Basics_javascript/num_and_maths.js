@@ -34,5 +34,20 @@ let hundered = 100000000
 
 //*******************************Maths****************************************************** */
 
+// console.log(Math);
+// console.log(Math.abs(-50));      //only negative value convert into positive value 
+// console.log(Math.abs(90));       // not positive value convert into negative value
+// console.log(Math.round(4.3));   // o/p = 4
+// console.log(Math.round(4.7));   // o/p = 5
+// console.log(Math.ceil(4.01));   // o/p = 5
+// console.log(Math.floor(4.8));   //o/p = 4
+// console.log(Math.pow(2 , 6));   // o/p = 64
+// console.log(Math.sqrt(45));  
 
+// console.log(Math.random());    //Math.random() value always comes in between 0 and 1
+// console.log((Math.random()*10) + 1);    // +1 ensure that value atleast comes 1
 
+const max = 6
+const min = 1
+
+console.log(Math.floor(Math.random() * (max - min + 1) + min));
